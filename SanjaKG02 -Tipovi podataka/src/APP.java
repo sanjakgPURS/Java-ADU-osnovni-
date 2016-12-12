@@ -9,12 +9,13 @@ public class APP {
 		short myShort=847;
 		long myLong=1256789;
 		double myDouble=7.234;
+		byte myByte= 127;
 		//ispis
 		System.out.println(myNumber);
 		System.out.println(myShort);
 		System.out.println(myLong);
 		System.out.println(myDouble);
-		
+		System.out.println(myByte);
 		
 	}
 
