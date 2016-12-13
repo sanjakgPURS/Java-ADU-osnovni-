@@ -5,19 +5,17 @@ public class App {
 		// TODO Auto-generated method stub
 		
 	// Deklarisanje niza (niza stringova)	
-    String[] words=new String[3];
+    String[] ImeiPrezime=new String[3];
     
-    words[0]="Pozdrav, ";
-    words[1]="kako si  ";
-    words[2]="ti? ";
+    ImeiPrezime[0]="Marko Markovic ";
+    ImeiPrezime[1]="Petar Petrovic  ";
+    ImeiPrezime[2]="Janko Jankovic ";
     
-    // Deklarisanje i definisanje stringa istovremeno
-    
-    String[] fruits={"jabuka","kruska","visnja","tresnja","grozdje","malina"};
+
     // kratka forma for petlje
     // ovo ce biti dovoljno za sad
-    for(String fruit: fruits){
-    	System.out.println(fruit);
+    for(String Ime: ImeiPrezime){
+    	System.out.println(Ime);
     	
     }
     
